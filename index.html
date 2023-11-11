@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Commerce</title>
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <a href="#"><img src="img/logo.PNG" alt="logo"></a>
+                    <ul>
+                        <li><a href="#"></a>Collections</li>
+                        <li><a href="#"></a>Men</li>
+                        <li><a href="#"></a>Women</li>
+                        <li><a href="#"></a>About</li>
+                        <li><a href="#"></a>Contact</li>
+                    </ul>
+                </div>
+                <div class="features">
+                    <div class="cart">
+                        <img src="img/savat.jpg" alt="korzina">
+                        <div class="modal" >
+                            <h3 class="cart_text">Cart</h3>
+                            <h3></h3>
+                         
+                        </div>
+                    </div>
+
+                    <div class="user">
+                        <img src="img/user.jpg" alt="user">
+                    </div>
+                </div>
+            </header>
+            <main class="main">
+                <div class="slider">
+                    <div class="active-slide">
+                        <div id="product-active">
+                            <img src="img/image-product-1.jpg" alt="product-1" id="product">
+                        </div>
+                    </div>
+                    <div class="slider-parent">
+                        <div class="slider-item" id="product-1">
+                            <img src="img/image-product-1-thumbnail.jpg" alt="product-2"
+                                class="active-slide-child slider_img" id="1">
+                        </div>
+                        <div class="slider-item" id="product-2">
+                            <img src="img/image-product-2-thumbnail.jpg" alt="product-3" class="slider_img" id="2">
+                        </div>
+                        <div class="slider-item" id="product-3">
+                            <img src="img/image-product-3-thumbnail.jpg" alt="product-4" class="slider_img" id="3">
+                        </div>
+                        <div class="slider-item" id="product-4">
+                            <img src="img/image-product-4-thumbnail.jpg" alt="product-5" class="slider_img" id="4">
+                        </div>
+                    </div>
+                </div>
+                <div class="buy">
+                    <h5>SNEAKER COMPANY</h5>
+                    <h3 class="fall">Fall Limited Sneakers</h3>
+                    <p class="these">These low-profile sneakers are your perfect casual wear companion.Featuring a
+                        derable rubber outer sole, they'll withstand everything the weather can offer.
+                    </p>
+                    <div style="display: flex; align-items: center;">
+                        <h3 class="narx">$125.00</h3> <span>50%</span>
+                    </div>
+                    <p class="sum">$250.00</p>
+                    <div class="add-cart">
+                        <div class="inc-dec">
+                            <button style="color: orange;">-</button>
+                            <button>3</button>
+                            <button style="color: orange;">+</button>
+                        </div>
+                        <button class="add">
+                            Add to cart
+                        </button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
