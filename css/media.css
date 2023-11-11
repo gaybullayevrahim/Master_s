@@ -1,0 +1,164 @@
+@media (max-width:576px) {
+    .nav__link {
+        display: none;
+    }
+
+    .login {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .login button {
+        width: 70px;
+        height: 30px;
+    }
+
+    .nav_burger {
+        display: flex;
+    }
+
+    .logo {
+        width: 62px;
+        height: 15px;
+    }
+    .skills {
+        text-align: center; 
+        flex-direction: column;
+    }
+    .human {
+        background: none;
+        width: 100%;
+        justify-content: center;
+    }
+    .students {
+        width: 70%;
+        margin: 0;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .career {
+        width: 100%;
+    }
+    .career h1 {
+        font-size: 43px;
+    }
+    .btns {
+        justify-content: center;
+    }
+    .footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+   .footer_start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+   }
+    .footer_menu {
+        margin-left: 10px;
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:576px) and (max-width:768px) {
+    .nav__link {
+        display: none;
+    }
+
+    .nav__link li {
+        margin-top: 10px;
+    }
+
+    .login {
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        justify-content: end;
+    }
+
+    .login button {
+        width: 70px;
+        height: 30px;
+    }
+
+    .nav_burger {
+        display: flex;
+        margin-left: 16px;
+    }
+
+    .nav__logo_link {
+        justify-content: flex-start;
+    }
+    .skills {
+        text-align: center; 
+        flex-direction: column;
+    }
+    .human {
+        background: none;
+        width: 100%;
+        justify-content: center;
+    }
+    .students {
+        width: 70%;
+        margin: 0;
+        justify-content: center;
+        padding-left: 20px;
+    }
+    .career {
+        width: 100%;
+    }
+    .btns {
+        justify-content: center;
+    }
+    .footer_menu {
+        margin:0 5px 0 5px;
+    }
+    .icon {
+        width: 100%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:992px) {
+    .nav__link {
+        justify-content: space-evenly;
+    }
+
+    .nav__link li {
+        margin-left: 10px;
+    }
+
+    .login {
+        width: 25%;
+    }
+
+  
+
+    .footer_menu {
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .footer_menu {
+        margin-left: 10px;
+    }
+
+}
+
+.nav_burger {
+    position: relative;
+}
+
+.show {
+    width: 30%;
+    position: absolute;
+    display: flex;
+    transition: all 0.8s ease-in-out;
+    left: 150px;
+    border: 1px solid white;
+}
